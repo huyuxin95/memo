@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <TextView
+        style="@style/title_style"
+        android:text="@string/register_title"
+     />
+    <EditText
+        android:id="@+id/et_register_name"
+        android:hint="@string/nichen"
+        style="@style/et_style"/>
+
+    <EditText
+        android:id="@+id/rt_register_psd"
+        android:hint="@string/mima"
+        style="@style/et_style"/>
+    <Button
+        android:id="@+id/bt_do_register"
+        android:text="@string/zhuce"
+        style="@style/bt_style"/>
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/bt_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:id="@+id/pb_re_pressbar"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

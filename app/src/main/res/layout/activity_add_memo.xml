@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/title_msg"
+        style="@style/title_style"
+        android:text="@string/add_memo_title"
+        />
+    <EditText
+        android:id="@+id/et_memo_title"
+        android:hint="@string/biaoti"
+        android:gravity="center"
+        style="@style/et_style"/>
+    <EditText
+        android:id="@+id/et_memo_content"
+        android:hint="@string/neirong"
+        android:gravity="start"
+        android:layout_weight="1"
+        style="@style/et_style"/>
+
+    <Button
+        android:id="@+id/bt_do_add_memo"
+        android:text="@string/tianjia"
+        android:layout_marginBottom="@dimen/bt_margin"
+        style="@style/bt_style"/>
+
+</LinearLayout>

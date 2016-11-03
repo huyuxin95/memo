@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="et_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/bt_high</item>
+        <item name="android:layout_marginTop">@dimen/bt_margin</item>
+        <item name="android:background">@drawable/bt_et_shape</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingLeft">@dimen/bt_margin</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+    <style name="bt_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/bt_high</item>
+        <item name="android:layout_marginTop">@dimen/bt_margin</item>
+        <item name="android:background">@drawable/bt_et_shape</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/bt_text_size</item>
+    </style>
+
+    <style name="title_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/title_high</item>
+        <item name="android:background">@color/title_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+    </style>
+
+</resources>
